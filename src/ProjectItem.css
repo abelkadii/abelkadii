@@ -1,0 +1,265 @@
+.projectitem{
+    width: 1000px;
+    height: 360px;
+    background: var(--white);
+    box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.11);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 40px;
+    display: flex;
+}
+.projectitem--reverse{
+    flex-flow: row-reverse;
+}
+.projectitem__shot{
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    width: 50%;
+    height: 100%;
+    border-radius: inherit;
+    margin-right: 10px;
+}
+.projectitem__shot>img{
+    transition: 8s ease-in-out;
+    width: 100%;
+}
+.projectitem__shot>img:hover{
+    transform: translateY(calc(320px - 100%));
+}
+.projectitem--reverse>.projectitem__shot{
+    margin-right: 0px;
+    margin-left: 10px;
+}
+.projectitem__details{
+    margin-left: 10px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.projectitem--reverse>.projectitem__details{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+.projectitem__details__half__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.projectitem__details__half__top__name{
+    font-family: var(--poppins);
+    font-weight: 700;
+    font-size: 42px;
+    color: var(--dark-main);
+}
+.projectitem__details__half__top__demo{
+    cursor: pointer;
+}
+.projectitem__details__half__text{
+    margin-top: 10px;
+    font-family: var(--poppins);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: var(--dark-main);
+}
+.project__details__bottom{
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+/* .projectitem__details__bottom__tech{} */
+.projectitem__details__tech__bottom__item{
+    margin-right: 10px;
+}
+.projectitem__details__bottom__code{
+    cursor: pointer;
+}
+@media screen and (max-width: 1100px){
+    .projectitem{
+        width: 100%;
+    }   
+    .projectitem__details__half__text{
+        line-height: 24px;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 860px){
+    .projectitem{
+        width: 100%;
+        height: calc(45vw - 60px);
+    }
+    .projectitem__shot>img:hover{
+        transform: translateY(calc(45vw - 100px - 100%));
+    }
+    .projectitem__details__half__top__name{
+        font-size: 36px;
+    }
+    .projectitem__details__half__text{
+        margin-top: 5px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .projectitem__details__tech__bottom__item{
+        width: 22px;
+    }
+    .projectitem__details__half__top__demo>img{
+        width: 20px;
+    }
+    .projectitem__details__bottom__code>img{
+        width: 20px;
+    }
+}
+@media screen and (max-width: 760px){
+    
+    .projectitem{
+        width: 100%;
+        height: calc(200px + 10vw);
+    }
+    .projectitem__shot>img:hover{
+        transform: translateY(calc(160px + 10vw - 100%));
+    }
+    .projectitem__details__half__top__name{
+        font-size: 30px;
+    }
+    .projectitem__details__half__text{
+        margin-top: 5px;
+        font-size: 11px;
+        line-height: 17px;
+    }
+    .projectitem__details__tech__bottom__item{
+        width: 22px;
+    }
+    .projectitem__details__half__top__demo>img{
+        width: 16px;
+    }
+    .projectitem__details__bottom__code>img{
+        width: 16px;
+    }
+        
+}
+
+@media screen and (max-width: 650px){
+    .projectitem{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 600px;
+    }
+    .projectitem__shot>img:hover{
+        transform: translateY(calc(270px - 100%));
+    }
+    .projectitem--reverse>div{
+        margin: 0;
+    }
+    .projectitem__shot{
+        width: 100%;
+        margin: 0 !important;
+    }
+    .projectitem__details{
+        margin: 20px 0 0 0 !important;
+        width: 100%;
+    }
+    .projectitem__details__half__top__name{
+        font-size: 38px;
+    }
+    .projectitem__details__half__text{
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .projectitem__details__tech__bottom__item{
+        width: 30px;
+    }
+    .projectitem__details__half__top__demo>img{
+        width: 20px;
+    }
+    .projectitem__details__bottom__code>img{
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .projectitem{
+        width: 100%;
+        height: calc(100vw + 200px);
+    }
+    .projectitem__shot>img:hover{
+        transform: translateY(calc(50vw + 70px - 100%));
+    }
+    .projectitem__details__half__top__name{
+        font-size: 34px;
+    }
+    .projectitem__details__half__text{
+        margin-top: 10px;
+        font-size: 13px;
+        line-height: 19px;
+    }
+    .projectitem__details__tech__bottom__item{
+        width: 25px;
+    }
+    .projectitem__details__half__top__demo>img{
+        width: 17px;
+    }
+    .projectitem__details__bottom__code>img{
+        width: 17px;
+    }
+}
+@media screen and (max-width: 400px){
+    .projectitem{
+        width: 100%;
+        height: calc(50vw + 350px);
+    }
+    .projectitem__shot>img:hover{
+        transform: translateY(calc(25vw + 160px - 100%));
+    }
+    .projectitem__details__half__top__name{
+        font-size: 28px;
+    }
+    .projectitem__details__half__text{
+        margin-top: 10px;
+        font-size: 11px;
+        line-height: 17px;
+    }
+    .projectitem__details__tech__bottom__item{
+        width: 22px;
+    }
+    .projectitem__details__half__top__demo>img{
+        width: 15px;
+    }
+    .projectitem__details__bottom__code>img{
+        width: 15px;
+    }
+}
+@media screen and (max-width: 360px){
+    .projectitem{
+        width: 100%;
+        height: calc(500px);
+    }
+    .projectitem__shot>img:hover{
+        transform: translateY(calc(172px - 100%));
+    }
+    .projectitem__details{
+        margin-top: 10px !important;
+    }
+    .projectitem__details__half__top__name{
+        font-size: 26px;
+    }
+    .projectitem__details__half__text{
+        margin-top: 10px;
+        font-size: 10px;
+        line-height: 14px;
+    }
+    .projectitem__details__tech__bottom__item{
+        width: 20px;
+    }
+    .projectitem__details__half__top__demo>img{
+        width: 13px;
+    }
+    .projectitem__details__bottom__code>img{
+        width: 13px;
+    }
+}
