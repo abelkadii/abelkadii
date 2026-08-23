@@ -1,94 +1,60 @@
-# 👋 Hi, I'm Abderrahmane Belkadi
+# Abderrahman Belkadi
 
-🚀 Developer | Problem Solver | Continuous Learner  
-📍 Morocco  
+**Software Engineer — Python Automation, Backend/API Systems, AI/LLM Integrations**
 
-Welcome to my GitHub profile — this is where I build, experiment, and grow.
+I build systems where APIs, workflows, data, and AI need to work reliably together — from webhook-driven automations and backend services to RAG pipelines, browser automation, and full-stack internal tools.
 
----
+Most of my current client work is private. The repositories below are selected technical proof rather than a complete work history.
 
-## 🧑‍💻 About Me
+## What I Work On
 
-- 💡 Passionate about technology and building useful tools  
-- 🌱 Always learning and improving my development skills  
-- 🔧 Interested in web development, automation, and real-world applications  
-- 🎯 Goal: Become a highly skilled developer and build impactful projects  
+- **Automation & integrations** — webhooks, Zapier, API orchestration, scheduled workflows, ETL, retries, monitoring
+- **Backend systems** — Python, FastAPI, Django, Flask, REST APIs, PostgreSQL, SQLite
+- **AI / LLM systems** — RAG, agents, structured extraction, evaluation, citation validation, execution traces
+- **Browser & data automation** — Playwright, scraping, concurrent workers, resumable pipelines
+- **Full-stack applications** — React, Next.js, JavaScript/TypeScript, Django, production deployment
 
----
+## Selected Work
 
-## 🚀 Featured Projects
+### [Agentic RAG with Evidence-Aware Retrieval](https://github.com/abelkadii/AI-RAG-DEMO)
 
-### 🎬 Media Downloader
-A tool for downloading media from the web (videos, audio, etc.)
+A Python RAG system over the AWS Well-Architected Framework with iterative `search → retrieve → assess → refine → stop` behavior, evidence-sufficiency checks, citation validation, full execution traces, automated tests, and a Streamlit demo.
 
-- ⚡ Fast and simple interface  
-- 🔗 Supports multiple media sources  
-- 🛠️ Built for practical everyday use  
+**Focus:** Python · RAG · Agents · Retrieval · OpenAI-compatible APIs · Testing · Observability
 
-👉 https://github.com/abelkadii/MediaDownloader  
+### [Arabic Morphology & LLM Automation](https://github.com/abelkadii/ELDA-INTERNSHIP)
 
----
+A research and data-engineering system for Arabic morphological gold-standard construction, reproducible evaluation, and multi-provider LLM/browser automation. The final validated dataset contains 100 unique sentences and 852 annotated words.
 
-### 🚫 Website Blocker
-A productivity tool to block distracting websites.
+**Focus:** Python · NLP · LLM orchestration · Playwright · Data engineering · Evaluation
 
-- ⛔ Helps improve focus  
-- ⚙️ Simple and effective logic  
-- 🧠 Great for learning system-level behavior  
+### [Multi-Model Prompter](https://github.com/abelkadii/MMP)
 
-👉 https://github.com/abelkadii/website-blocker  
+A reusable Playwright-based scheduler for running prompt workloads across multiple browser-based LLM providers, with fan-out and worker-pool modes, persistent isolated profiles, resumable JSONL results, provider adapters, and live throughput metrics.
 
----
+**Focus:** Python · Playwright · Browser automation · Concurrency · Queues · Resumability
 
-### 🌐 Eduford Website
-A modern responsive website project.
+### [Eduford](https://github.com/abelkadii/eduford)
 
-- 💻 Clean UI/UX design  
-- 📱 Fully responsive  
-- 🎨 Built with front-end technologies  
+A full-stack Django platform combining authentication, scraped book data, e-commerce flows, Google Maps integration, Gemini-powered features, PDF generation, AJAX interactions, and deployment-ready application structure.
 
-👉 https://github.com/abelkadii/eduford  
+**Focus:** Django · Full-stack development · Scraping · API integrations · Deployment
 
----
+## Current Focus
 
-### 🧑‍🎨 Portfolio Website
-My personal portfolio showcasing my work and skills.
+- Production automation and integration systems
+- AI-backed backend services with reliable, inspectable workflows
+- Reusable demos for automation, dashboards, and data-heavy applications
+- Quantitative/time-series research tooling
 
-- 🌍 Personal branding  
-- 🧩 Project showcase  
-- 🎯 Clean and modern design  
+## Tech
 
-👉 https://github.com/abelkadii/abelkadii-portfolio  
+`Python` · `FastAPI` · `Django` · `Flask` · `JavaScript` · `TypeScript` · `React` · `Next.js` · `PostgreSQL` · `SQLite` · `Playwright` · `Zapier` · `Docker` · `Linux` · `Vercel` · `Git/GitHub` · `OpenAI APIs`
 
----
+## About
 
-## 🛠️ Tech Stack
+Based in Morocco and studying Computer Science Engineering at École Mohammadia d'Ingénieurs (EMI), Rabat.
 
-- 💻 Languages: `JavaScript` `Python` `HTML` `CSS`  
-- ⚙️ Tools: `Git` `GitHub` `VS Code`  
-- 🌐 Web: Responsive Design, Frontend Development  
+I am available for freelance and contract work involving automation, backend systems, API integrations, AI workflows, and technically demanding software projects.
 
----
-
-## 📈 What I'm Working On
-
-- Improving my coding skills daily  
-- Building more real-world projects  
-- Exploring new technologies  
-
----
-
-## 📫 Contact Me
-
-- 📧 Email: etbelkadi@gmail.com  
-- 💻 GitHub: https://github.com/abelkadii  
-
----
-
-## ⭐ Support
-
-If you like my work, feel free to ⭐ my repositories!
-
----
-
-> “Consistency beats talent. Keep building.”
+**Contact:** [etbelkadi@gmail.com](mailto:etbelkadi@gmail.com)
